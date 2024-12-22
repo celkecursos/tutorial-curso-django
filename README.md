@@ -155,3 +155,40 @@ Após instalar a dependência, execute o comando abaixo.
 ```
 pip freeze > requirements.txt
 ```
+
+## Como usar o GitHub.
+
+Inicializar um novo repositorio GIT.
+```
+git init
+```
+
+Adicionar todos os arquivos modificados na área de preparação.
+´´´
+git add .
+´´´
+
+Commit registra as alterações feitas nos arquivos que foram adicionados na área de preparação.
+´´´
+git commit -m "Base do projeto"
+´´´
+
+Verificar em qual branch está.
+´´´
+git branch
+´´´
+
+Renomear a branch atual no GIT para main.
+´´´
+git branch -M main
+´´´
+
+Adicionar um repositório remoto ao repositório local.
+´´´
+git remote add origin https://github.com/celkecursos/tutorial-curso-django.git
+´´´
+
+Enviar os commits locais para um repositório remoto.
+´´´
+git push -u origin main
+´´´
