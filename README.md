@@ -1,3 +1,5 @@
+Código-fonte das aulas sobre [Django](https://www.youtube.com/watch?v=OsH8sZb8x1k&list=PLmY5AEiqDWwAKFymn4450k9XGLt8v3Xgd).<br>
+
 ## Requisitos
 
 * Python 3 ou superior - Conferir a versão: python --version
