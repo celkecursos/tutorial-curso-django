@@ -1,0 +1,29 @@
+{% load static %}
+<footer class="py-3 border-light mt-auto bg-primary" data-bs-theme='dark'>
+  <div class="container d-flex flex-wrap justify-content-between align-items-center">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="{% url 'home' %}" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="{% static 'logo/logo-define-500x500_v3.png' %}" alt="Celke" style="width: 50px;" class="bi">
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">&copy; {% now "Y" %} Celke</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://twitter.com/celkecursos" target="_blank">
+          <i class="bi bi-twitter-x" class="bi" width="24" height="24"></i>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://www.instagram.com/celkecursos/" target="_blank">
+          <i class="bi bi-instagram" class="bi" width="24" height="24"></i>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://www.facebook.com/celkecursos/" target="_blank">
+          <i class="bi bi-facebook" class="bi" width="24" height="24"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
