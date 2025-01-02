@@ -158,6 +158,12 @@ Após instalar a dependência, execute o comando abaixo.
 pip freeze > requirements.txt
 ```
 
+Instalar o django-tinymce.
+```
+pip install django-tinymce
+```
+
+
 ## Como usar o GitHub.
 
 Inicializar um novo repositorio GIT.
