@@ -68,6 +68,12 @@ http://127.0.0.1:8000/admin
 Usuário: admin
 Senha: 123456A#
 
+Executar as seeds para cadastrar registro de teste.
+```
+python manage.py seed_pricing_plan
+```
+
+
 ## Sequencia para criar o projeto
 
 Instalar o Django.
