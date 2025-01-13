@@ -1,6 +1,6 @@
 # BaseCommand: Classe base para criar comandos personalizados no Django. Ao herdar dessa classe, pode ser criado comandos que são executados pelo manage.py no terminal.
 from django.core.management.base import BaseCommand
-# PricingPlan: Importar o modelo PricingPlan da aplicação courses. O modelo representa a tabela no banco de dados onde os dados serão manipulados.
+# PricingPlan: Importar o modelo PricingPlan da aplicação home. O modelo representa a tabela no banco de dados onde os dados serão manipulados.
 from home.models import PricingPlan
 
 class Command(BaseCommand):

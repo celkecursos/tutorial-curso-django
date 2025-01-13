@@ -71,6 +71,8 @@ Senha: 123456A#
 Executar as seeds para cadastrar registro de teste.
 ```
 python manage.py seed_pricing_plan
+python manage.py seed_plan_feature
+python manage.py seed_content_home
 ```
 
 
